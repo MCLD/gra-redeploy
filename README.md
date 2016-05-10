@@ -16,7 +16,7 @@ Of course you'll want to change the paths in these scripts. You can use [UNC pat
 2. Back up current production site code
 3. Open `Great Reading Adventure.sln` in Visual Studio
 4. Right-click on the `GRA.Database` project and select `Schema Compare`
-5. Select the production database on the left and the up-to-date current database (probably either the `GRA.Database` project or your local database if that's most up-to-date) on the right
+5. Leave the `GRA.Database` project selected on the left and select the production database on the right
 6. Click the gear in the toolbar, expand `Application-scoped` and deselect `Database Roles` and `Users`
 7. Click `Compare`
 8. If there are differences, click the script icon (to the right of the `Update` button) to generate a migration script and save it
