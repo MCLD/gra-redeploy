@@ -1,5 +1,7 @@
 # Re-deploying The Great Reading Adventure
 
+:warning: **This project is no longer under active development, please consider using Docker if you are frequently redeploying The Great Reading Adventure.** :warning:
+
 These are some quick hacks to help facilitate redeploying the [Great Reading Adventure](https://github.com/MCLD/greatreadingadventure) software. During use of the software, administrators utilizing the Control Room can upload files to the site (images) and customize files saved on the site (resources and CSS). These files might be accidentally overwritten upon deployment unless care is taken. This project contains scripts to help automate the deployment process to ensure those files are not lost.
 
 The expected use of this process is for developers who are making code and database enhancements actively while reading programs are running. **It's a much better idea to just deploy the latest release if that is possible. If you are not actively making changes to the source code, the [deployment instructions in the manual](http://manual.greatreadingadventure.com/en/latest/#install-docs) are the best approach to follow.**
